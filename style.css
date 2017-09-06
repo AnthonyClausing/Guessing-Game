@@ -1,0 +1,77 @@
+
+title{
+    font-family:'Arial';
+}
+.center {
+  text-align: center;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+img {
+    width: 200px;
+    height: 50px;
+}
+#footer {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    border-top: solid 2px black;
+    background-color : #FFFFFF;
+    position: fixed;
+    bottom: 0;
+}
+.guess{
+    display: inline;
+    font-size: 60px;
+    border: 1px solid black;
+    padding: 0 25px;
+    border-radius: 10px;
+}
+#player-input{
+    border-radius: 50%;
+    width: 160px;
+    height: 100px;
+    font-size: 60px;
+    position: relative;
+    bottom: 35px;
+}
+#submit{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 10px;
+    left: 130px;
+}
+#input-parent{
+    width: 160px;
+    margin: 5% auto 50px;
+    position: relative;
+}
+#guess-list{
+    position: relative;
+    top:20px;
+    color:#edf424;
+    text-shadow: 0px 20px 20px #000000
+}
+body{
+   background-image: url(https://images4.alphacoders.com/754/thumb-1920-754560.png);
+    /*url(http://i.imgur.com/3nYnOgQ.jpg);*/
+    background-size: cover;
+   
+}
+#app{
+    width: 60%;
+    margin: 50px auto;
+    background-color: rgba(256,256,256,0.1);
+}
+#menu-btns{
+    position:relative;
+    top: 3px;
+}
+#headers{
+    font-family: 'Chewy';
+    color: #edf424;
+    text-shadow: 0px 20px 20px #000000; 
+}
